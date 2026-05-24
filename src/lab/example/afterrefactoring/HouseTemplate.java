@@ -13,7 +13,6 @@ public abstract class HouseTemplate {
 
     //default implementation
     private void buildWindows() {
-
         System.out.println("Building Glass Windows");
     }
 
@@ -22,7 +21,6 @@ public abstract class HouseTemplate {
     protected abstract void buildPillars();
 
     private void buildFoundation() {
-
         System.out.println("Building foundation with cement, iron rods and sand");
     }
 }
